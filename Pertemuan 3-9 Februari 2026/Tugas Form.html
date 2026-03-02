@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Registrasi</title>
+  </head>
+  <body>
+    <hr />
+    <h3 align="center">Formulir Registrasi</h3>
+    <form name="Registrasi" action="Konfirmasi.html" method="post">
+      <table align="center" border="0">
+        <tr>
+          <td>Nama anda</td>
+          <td>:</td>
+          <td><input type="text" name="nama" /></td>
+        </tr>
+
+        <tr>
+          <td>Password anda</td>
+          <td>:</td>
+          <td><input type="password" name="password" /></td>
+        </tr>
+
+        <tr>
+          <td>Jenis Kelamin</td>
+          <td>:</td>
+          <td>
+            <input type="radio" name="jk" value="L" /> Laki-laki
+            <input type="radio" name="jk" value="P" /> Perempuan
+          </td>
+        </tr>
+
+        <tr valign="top">
+          <td>Binatang Kesayangan</td>
+          <td>:</td>
+          <td>
+            <select name="binatang" size="5">
+              <option value="Kucing">Kucing</option>
+              <option value="Kelinci">Kelinci</option>
+              <option value="Hamster">Hamster</option>
+              <option value="Sapi">Sapi</option>
+              <option value="Harimau">Harimau</option>
+            </select>
+          </td>
+        </tr>
+
+        <tr>
+          <td colspan="3" align="center">
+            <br />
+            <input type="submit" value="Kirimkan Data" />
+            <input type="reset" value="Hapus Formulir" />
+          </td>
+        </tr>
+      </table>
+    </form>
+    <hr />
+    <p align="center">&copy; Muhammad Rezki Khaidir 2026</p>
+  </body>
+</html>

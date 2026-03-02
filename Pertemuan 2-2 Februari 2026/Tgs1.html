@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      :root {
+        --primary-red: #ff3030;
+        --bg-overlay: rgba(0, 0, 0, 0.6);
+        --text-light: #ffffff;
+      }
+
+      body {
+        font-family: "Poppins", sans-serif;
+        margin: 0;
+        background: url("bg.jpg") no-repeat center center fixed;
+        background-size: cover;
+      }
+
+      .topnav {
+        background-color: #cacaca;
+        display: flex;
+        align-items: center;
+        padding: 0 30px;
+      }
+
+      .topnav h3 {
+        margin: 0;
+        margin-right: auto;
+        color: #333;
+        font-weight: 600;
+      }
+
+      .topnav a {
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .topnav a:hover {
+        background-color: #ddd;
+        color: var(--primary-grey);
+      }
+
+      .topnav a.active {
+        background-color: var(--primary-red);
+        color: white;
+      }
+
+      .content {
+        padding: 20px;
+        background-color: var(--bg-overlay);
+        color: #ffffff;
+        margin: 10px auto;
+      }
+
+      .content h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+
+      .content h3 {
+        text-align: center;
+        margin-bottom: 15px;
+      }
+      .content hr {
+        border: 1px solid #ffffff;
+        margin: 20px 0;
+      }
+
+      .gallery-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+      }
+
+      .content img,
+      .content marquee img {
+        height: 120px;
+        min-width: 180px;
+        width: auto;
+        margin: 10px;
+        border: 4px solid white;
+        border-radius: 4px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        transition:
+          transform 0.3s ease,
+          box-shadow 0.3s ease;
+        object-fit: cover;
+        cursor: pointer;
+      }
+
+      .content img:hover,
+      .content marquee img:hover {
+        transform: scale(1.1);
+      }
+
+      marquee {
+        margin-top: 20px;
+        padding: 10px 0;
+      }
+
+      .tagdipelajari {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 30px;
+        margin: 40px auto;
+        width: 85%;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .tagdipelajari h3 {
+        color: #333;
+        display: inline-block;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        columns: 3;
+        list-style-type: square;
+        color: #555;
+      }
+
+      footer {
+        margin-top: 30px;
+        font-size: 0.9rem;
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="topnav">
+      <h3>Website</h3>
+      <a class="active" href="#">Home</a>
+      <a href="Link.html">Program Studi</a>
+      <a href="Test.html">Menu Makanan</a>
+    </header>
+
+    <main class="content">
+      <h1>F1 Lineup for 2026</h1>
+      <p align="center">
+        Inilah Livery dan Bentuk Mobil F1 Regulasi 2026. Ini belum mencakup
+        seluruh tim yang ada di F1. (Beberapa dari tim masih belum
+        mempresentasikan livery baru untuk 2026).
+      </p>
+
+      <hr />
+
+      <h3>Gallery Utama</h3>
+      <table cellpadding="10">
+        <tr>
+          <td>
+            <img src="AMR26.jpg" alt="Aston Martin AMR26" width="200" />
+            <p>Aston Martin AMR26</p>
+          </td>
+
+          <td>
+            <img src="Audi.jpg" alt="Audi F1 Car" width="267" />
+            <p>Audi F1 Car</p>
+          </td>
+
+          <td>
+            <img src="RB22.jpg" alt="RB F1 Car" width="226" />
+            <p>RB F1 Car</p>
+          </td>
+
+          <td>
+            <img src="MCL40.jpg" alt="McLaren MCL40" width="225" />
+            <p>McLaren MCL40</p>
+          </td>
+
+          <td>
+            <img src="SF-26.jpg" alt="Ferrari SF-26" width="287" />
+            <p>Ferrari SF-26</p>
+          </td>
+
+          <td>
+            <img src="W17.jpg" alt="Mercedes W17" width="226" />
+            <p>Mercedes W17</p>
+          </td>
+
+          <td>
+            <img src="Cadillac.jpg" alt="Cadillac F1 Car" width="290" />
+            <p>Cadillac F1 Car</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="Adrian Newey.jpg" alt="Adrian Newey" width="200" />
+            <p>Adrian Newey as Team Principal</p>
+          </td>
+
+          <td>
+            <img
+              src="Jonathan Wheatley.jpg"
+              alt="Jonathan Wheatley"
+              width="270"
+            />
+            <p>Jonathan Wheatley as Team Principal</p>
+          </td>
+
+          <td>
+            <img src="Laurent Mekies.jpg" alt="Laurent Mekies" width="230" />
+            <p>Laurent Mekies as Team Principal</p>
+          </td>
+
+          <td>
+            <img src="Andrea Stella.jpg" alt="Andrea Stella" width="227" />
+            <p>Andrea Stella as Team Principal</p>
+          </td>
+
+          <td>
+            <img
+              src="Frédéric Vasseur.jpg"
+              alt="Frédéric Vasseur"
+              width="290"
+            />
+            <p>Frédéric Vasseur as Team Principal</p>
+          </td>
+
+          <td>
+            <img src="Toto Wolff.jpg" alt="Toto Wolff" width="300" />
+            <p>Toto Wolff as Team Principal</p>
+          </td>
+
+          <td>
+            <img src="Graeme Lowdon.jpg" alt="Graeme Lowdon" width="290" />
+            <p>Graeme Lowdon as Team Principal</p>
+          </td>
+        </tr>
+      </table>
+
+      <hr />
+
+      <h3>Lineup Drivers F1 2026</h3>
+      <marquee behavior="scroll" scrollamount="10" direction="left">
+        <img
+          src="Fernando Alonso.jpg"
+          alt="Fernando Alonso"
+          width="200"
+          style="margin-right: 20px"
+        />
+        <img
+          src="Nico Hulkenberg.jpg"
+          alt="Nico Hulkenberg"
+          width="200"
+          style="margin-right: 20px"
+        />
+        <img
+          src="Max Verstappen.jpg"
+          alt="Max Verstappen"
+          width="200"
+          style="margin-right: 20px"
+        />
+        <img
+          src="Lando Norris.jpg"
+          alt="Lando Norris"
+          width="200"
+          style="margin-right: 20px"
+        />
+        <img
+          src="Charles Leclerc.jpg"
+          alt="Charles Leclerc"
+          width="200"
+          style="margin-right: 20px"
+        />
+        <img
+          src="Valterri Bottas.jpg"
+          alt="Valterri Bottas"
+          width="240"
+          style="margin-right: 20px"
+        />
+      </marquee>
+
+      <marquee behavior="scroll" scrollamount="10" direction="right">
+        <img
+          src="Lance Stroll.jpg"
+          alt="Lance Stroll"
+          width="240"
+          style="margin-right: 20px"
+        />
+        <img
+          src="Gabriel Bortoleto.jpg"
+          alt="Gabriel Bortoleto"
+          width="240"
+          style="margin-right: 20px"
+        />
+        <img
+          src="Isack Hadjar.jpg"
+          alt="Isack Hadjar"
+          width="250"
+          style="margin-right: 20px"
+        />
+        <img
+          src="Oscar Piastri.jpg"
+          alt="Oscar Piastri"
+          width="200"
+          style="margin-right: 20px"
+        />
+        <img
+          src="Lewis Hamilton.jpg"
+          alt="Lewis Hamilton"
+          width="200"
+          style="margin-right: 20px"
+        />
+        <img
+          src="Sergio Perez.jpg"
+          alt="Sergio Perez"
+          width="240"
+          style="margin-right: 20px"
+        />
+      </marquee>
+
+      <hr />
+
+      <p>&copy; Muhammad Rezki Khaidir</p>
+    </main>
+    <section class="tagdipelajari">
+      <h3>Tag yang dipelajari & Contohnya:</h3>
+      <ul>
+        <li>
+          <b>Heading 1 - 6:</b>
+          <h1>Heading 1</h1>
+          <h6>Heading 6</h6>
+        </li>
+
+        <li><b>br:</b> Untuk membuat baris baru<br />seperti ini.</li>
+
+        <li>
+          <b>hr:</b> Garis horizontal
+          <hr />
+        </li>
+
+        <li>
+          <b>p:</b>
+          <p>Ini adalah paragraf.</p>
+        </li>
+
+        <li>
+          <b>pre:</b>
+          <pre>Teks dengan format tetap</pre>
+        </li>
+
+        <li>
+          <b>b / strong:</b> <b>Tebal biasa</b> atau
+          <strong>Sangat Tebal</strong>
+        </li>
+
+        <li><b>i / em:</b> <i>Huruf Miring</i> atau <em>Penekanan</em></li>
+
+        <li><b>u:</b> <u>Garis bawah pada Teks</u></li>
+
+        <li><b>small:</b> <small>Teks berukuran kecil</small></li>
+
+        <li><b>sub:</b> H<sub>2</sub>O (Subscript)</li>
+
+        <li><b>sup:</b> m<sup>2</sup> (Superscript)</li>
+
+        <li><b>del:</b> <del>Teks yang dicoret</del></li>
+
+        <li>
+          <b>address:</b>
+          <address>Jl. Padjajaran, Bogor (Untuk menunjukkan alamat)</address>
+        </li>
+
+        <li>
+          <b>blockquote:</b>
+          <blockquote>
+            "Ini adalah sebuah kutipan teks" (Menunjukkan kutipan teks)
+          </blockquote>
+        </li>
+
+        <li>
+          <b>marquee:</b>
+          <marquee scrollamount="3" style="width: 50%">Teks berjalan</marquee>
+        </li>
+
+        <li>
+          <b>ul & li:</b>
+          <ul>
+            <li>Contoh list bulletpoint</li>
+          </ul>
+        </li>
+
+        <li>
+          <b>ol & li:</b>
+          <ol>
+            <li>Contoh list angka</li>
+          </ol>
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
