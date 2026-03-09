@@ -1,0 +1,61 @@
+/* Background utama halaman */
+body {
+  background-color: #a4c9e3;
+  font-family: Arial, sans-serif;
+}
+
+/* Biar gak ketutup menu atas */
+.main-content {
+  margin-top: 80px;
+}
+
+/* Modifikasi kotak card Bootstrap */
+.card {
+  border-radius: 4px;
+  border: 1px solid #e1e8ed;
+  border-top: none; /* Menghilangkan border atas supaya menyatu dengan banner */
+}
+
+/* --- KARTU PROFIL KIRI --- */
+.profile-card {
+  border: none; /* Dibuat none agar kita bisa atur ulang */
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.profile-banner {
+  height: 95px; /* Tinggi warna biru */
+  background-color: #0084b4;
+}
+
+/* Area Putih di Kartu Profil Kiri */
+.profile-body {
+  position: relative; /* Ini wajib supaya foto bisa diatur posisinya di atas body ini */
+  background-color: white;
+  padding-top: 45px; /* Ini rahasianya! Kita kasih ruang kosong di atas teks biar fotonya muat dan gak numpuk */
+  border: 1px solid #e1e8ed;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+}
+
+/* Foto Profil IPB */
+.profile-pic {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  border: 3px solid white;
+  background-color: white;
+  position: absolute; /* Dibikin melayang */
+  top: -35px; /* Ditarik ke atas sebesar 35px supaya masuk ke area banner biru */
+  left: 117px;
+  z-index: 10;
+}
+
+/* Pastikan teks berada di sebelah kiri */
+.profile-info {
+  text-align: center;
+}
+
+.profile-picture {
+  border-radius: 50%;
+}
