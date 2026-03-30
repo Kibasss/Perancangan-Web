@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piramida Titik Jarvis</title>
+    <style>
+      body {
+        font-family: "Courier New", Courier, monospace; /* Wajib Monospace */
+        text-align: center;
+        background-color: aqua;
+        padding: 50px;
+      }
+
+      /* Agar piramida tetap di tengah tapi rata kiri secara internal */
+      #output {
+        display: inline-block;
+        text-align: left;
+        font-size: 20px;
+        line-height: 1.2;
+        background: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        border-radius: 8px;
+        margin-top: 20px;
+        min-width: 50px;
+      }
+
+      input {
+        padding: 8px;
+        width: 150px;
+      }
+
+      button {
+        padding: 8px 15px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Piramida Titik</h2>
+
+    <input type="number" id="tinggiInput" placeholder="Angka 1-20" />
+    <button onclick="buatPiramida()">Generate</button>
+    <button onclick="hapusPiramida()">Hapus</button>
+
+    <br />
+    <pre id="output"></pre>
+
+    <script>
+      function buatPiramida() {
+        // Ambil elemen input dan output
+        const inputElement = document.getElementById("tinggiInput");
+        const outputElement = document.getElementById("output");
+
+        // Ambil nilainya dan ubah jadi angka
+        let tinggi = parseInt(inputElement.value);
+        let hasil = "";
+
+        // Validasi: Jika bukan angka atau kosong
+        if (isNaN(tinggi) || tinggi < 1) {
+          alert("Masukkan angka dulu, Bos!");
+          return;
+        }
+
+        // Validasi Maksimal 20
+        if (tinggi > 20) {
+          alert("Maksimal 20 ya biar gak berantakan!");
+          tinggi = 20;
+          inputElement.value = 20; // Otomatis ubah angka di kotak input jadi 20
+        }
+
+        // Loop untuk membuat piramida
+        for (let i = 1; i <= tinggi; i++) {
+          // Buat Spasi
+          for (let j = 1; j <= tinggi - i; j++) {
+            hasil += " ";
+          }
+          // Buat Titik (Bisa ganti "•" jadi "*" kalau mau)
+          for (let k = 1; k <= 2 * i - 1; k++) {
+            hasil += "•";
+          }
+          // Pindah baris
+          hasil += "\n";
+        }
+
+        // Tampilkan ke layar
+        outputElement.textContent = hasil;
+      }
+
+      function hapusPiramida() {
+        document.getElementById("output").textContent = "";
+        document.getElementById("tinggiInput").value = "";
+      }
+    </script>
+  </body>
+</html>

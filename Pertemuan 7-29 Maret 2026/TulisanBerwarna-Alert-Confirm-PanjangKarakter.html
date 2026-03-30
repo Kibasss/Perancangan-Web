@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tulisan Berwarna, Alert, Confirm, Panjang Karakter</title>
+  </head>
+  <body>
+    <script languange="javascript">
+      //menampilkan tulisan berwarna merah
+      document.write(
+        "<font color='red'> Selamat Hari Raya \ Idul Fitri </font> <br />",
+      );
+      //message box hanya ada satu button ok
+      window.alert("Selamat datang di Kota Bogor");
+
+      //confirm ada dua button; ok dan cancel
+      var jawab = window.confirm("Apakah anda ingin pulang ke Bogor?");
+      document.write("Jawaban anda " + jawab);
+
+      //menanyakan sapaan pengunjung
+      var pengunjung = prompt("Tulis nama anda di sini", "Yup di sini");
+      document.write(
+        " <br /> Hai " +
+          pengunjung +
+          ", Bagaimana kabar anda " +
+          pengunjung +
+          "?",
+      );
+
+      var depan = "Teknologi Rekayasa ";
+      var belakang = "Perangkat Lunak";
+      nama = depan + belakang;
+      document.write(" <br /> Program Studi " + nama);
+      document.write("<br /> Panjang Kata: " + nama.length);
+    </script>
+  </body>
+</html>
