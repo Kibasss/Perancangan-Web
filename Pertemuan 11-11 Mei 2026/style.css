@@ -1,0 +1,35 @@
+:root {
+  --hijau-bogor: #2d6a4f;
+  --putih-bersih: #ffffff;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.navbar {
+  background-color: var(--hijau-bogor) !important;
+}
+
+.hero-section {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: var(--hijau-bogor);
+  color: white;
+  padding: 20px 0;
+  margin-top: 50px;
+}
