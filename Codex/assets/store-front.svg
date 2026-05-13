@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 420" role="img" aria-label="Toko sparepart motor">
+  <rect width="620" height="420" fill="#eaf6ed"/>
+  <rect x="88" y="142" width="444" height="210" rx="10" fill="#ffffff" stroke="#0f6b35" stroke-width="16"/>
+  <path d="M120 86h380l44 78H76z" fill="#138a43"/>
+  <path d="M142 86l-28 78M220 86l-14 78M310 86v78M400 86l14 78M478 86l28 78" stroke="#ffffff" stroke-width="12"/>
+  <rect x="154" y="206" width="112" height="146" fill="#cfe8d4"/>
+  <rect x="318" y="204" width="146" height="86" rx="8" fill="#eaf6ed" stroke="#0f6b35" stroke-width="12"/>
+  <circle cx="392" cy="247" r="24" fill="#138a43"/>
+  <path d="M154 176h312" stroke="#0f6b35" stroke-width="12" stroke-linecap="round"/>
+</svg>

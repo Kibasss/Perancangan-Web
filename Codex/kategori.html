@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotoPart Hijau - Kategori</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar: pengguna bisa pindah ke halaman lain -->
+  <header class="navbar">
+    <a class="logo" href="index.html">MotoPart Hijau</a>
+
+    <nav class="nav-links" aria-label="Menu utama">
+      <a href="index.html">Beranda</a>
+      <a href="produk.html">Produk</a>
+      <a class="active" href="kategori.html">Kategori</a>
+      <a href="promo.html">Promo</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <form class="search-form" id="searchForm">
+      <input type="search" id="searchInput" placeholder="Cari sparepart motor..." aria-label="Cari produk">
+      <button type="submit">Cari</button>
+    </form>
+  </header>
+
+  <main>
+    <!-- Header halaman kategori -->
+    <section class="page-header">
+      <p>Kategori</p>
+      <h1>Belanja Berdasarkan Jenis Sparepart</h1>
+      <span>Pilih kategori agar lebih cepat menemukan barang.</span>
+    </section>
+
+    <!-- Daftar kategori utama -->
+    <section class="content-section">
+      <div class="category-grid large">
+        <a class="category-card" href="produk.html?kategori=CVT">
+          <img src="assets/category-cvt.svg" alt="Ilustrasi kategori CVT">
+          <h3>Part CVT</h3>
+          <p>V-Belt, roller, kampas ganda, dan pulley untuk motor matic.</p>
+        </a>
+        <a class="category-card" href="produk.html?kategori=Rem">
+          <img src="assets/category-brake.svg" alt="Ilustrasi kategori rem">
+          <h3>Sistem Rem</h3>
+          <p>Kampas rem dan cairan pendukung agar pengereman tetap nyaman.</p>
+        </a>
+        <a class="category-card" href="produk.html?kategori=Mesin">
+          <img src="assets/category-engine.svg" alt="Ilustrasi kategori mesin">
+          <h3>Mesin</h3>
+          <p>Oli mesin, busi, filter udara, dan komponen perawatan rutin.</p>
+        </a>
+        <a class="category-card" href="produk.html?kategori=Aksesoris">
+          <img src="assets/category-accessory.svg" alt="Ilustrasi kategori aksesoris">
+          <h3>Aksesoris</h3>
+          <p>Spion, grip, jas hujan jok, dan pelengkap kebutuhan berkendara.</p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 MotoPart Hijau. Semua hak dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

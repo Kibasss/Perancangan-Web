@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" role="img" aria-label="Kategori mesin">
+  <rect width="360" height="190" rx="8" fill="#eaf6ed"/>
+  <rect x="90" y="62" width="180" height="82" rx="18" fill="#ffffff" stroke="#0f6b35" stroke-width="14"/>
+  <path d="M126 62V38h38M202 62V38h38M126 144v24h38M202 144v24h38" stroke="#138a43" stroke-width="12" stroke-linecap="round"/>
+  <path d="M136 103h88" stroke="#0f6b35" stroke-width="12" stroke-linecap="round"/>
+</svg>

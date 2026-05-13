@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" role="img" aria-label="Kategori aksesoris">
+  <rect width="360" height="190" rx="8" fill="#eaf6ed"/>
+  <path d="M100 70h86c28 0 50 22 50 50v8H100z" fill="#ffffff" stroke="#0f6b35" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M236 120h38c22 0 38 16 42 38" fill="none" stroke="#138a43" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="132" cy="150" r="20" fill="#0f6b35"/>
+  <circle cx="252" cy="150" r="20" fill="#0f6b35"/>
+</svg>

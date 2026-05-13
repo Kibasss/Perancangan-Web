@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustrasi sparepart motor</title>
+  <desc id="desc">Gambar motor dan sparepart dengan warna hijau dan putih.</desc>
+  <rect width="900" height="520" fill="#eaf6ed"/>
+  <circle cx="680" cy="125" r="92" fill="#cfe8d4"/>
+  <circle cx="760" cy="350" r="118" fill="#dff1e3"/>
+  <path d="M110 358h610c38 0 70 31 70 70v24H110z" fill="#ffffff"/>
+  <circle cx="255" cy="424" r="58" fill="#0f6b35"/>
+  <circle cx="255" cy="424" r="30" fill="#ffffff"/>
+  <circle cx="640" cy="424" r="58" fill="#0f6b35"/>
+  <circle cx="640" cy="424" r="30" fill="#ffffff"/>
+  <path d="M254 418l88-108h139l83 108" fill="none" stroke="#0f6b35" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M340 309l-54-82h108l57 82" fill="#138a43"/>
+  <path d="M478 309l46-86h92l-54 86z" fill="#ffffff" stroke="#0f6b35" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M598 224h75l42 42" fill="none" stroke="#0f6b35" stroke-width="18" stroke-linecap="round"/>
+  <path d="M178 250h120" stroke="#138a43" stroke-width="18" stroke-linecap="round"/>
+  <path d="M152 294h82" stroke="#138a43" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="194" cy="150" r="48" fill="#ffffff" stroke="#0f6b35" stroke-width="16"/>
+  <circle cx="194" cy="150" r="18" fill="#138a43"/>
+  <rect x="278" y="113" width="112" height="74" rx="14" fill="#ffffff" stroke="#0f6b35" stroke-width="12"/>
+  <path d="M306 150h56" stroke="#138a43" stroke-width="12" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 190" role="img" aria-label="Kategori rem">
+  <rect width="360" height="190" rx="8" fill="#eaf6ed"/>
+  <circle cx="180" cy="95" r="64" fill="#ffffff" stroke="#0f6b35" stroke-width="14"/>
+  <circle cx="180" cy="95" r="24" fill="#cfe8d4"/>
+  <path d="M218 54l54-28v74" fill="none" stroke="#138a43" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

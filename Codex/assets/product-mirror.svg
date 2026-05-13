@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-label="Spion motor">
+  <rect width="420" height="260" fill="#eaf6ed"/>
+  <path d="M144 76c44-36 120-26 146 18 24 40-8 86-62 88-52 2-102-28-112-70-4-15 6-27 28-36z" fill="#ffffff" stroke="#0f6b35" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M224 177c-4 34-22 54-54 62" stroke="#0f6b35" stroke-width="14" stroke-linecap="round"/>
+  <path d="M286 110c36 12 58 38 66 76" stroke="#138a43" stroke-width="14" stroke-linecap="round"/>
+  <path d="M166 108h80" stroke="#cfe8d4" stroke-width="14" stroke-linecap="round"/>
+</svg>

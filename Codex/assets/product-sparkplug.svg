@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-label="Busi motor">
+  <rect width="420" height="260" fill="#eaf6ed"/>
+  <path d="M150 72l45-45 146 146-45 45z" fill="#ffffff" stroke="#0f6b35" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M184 38l-45 45M214 68l-45 45M244 98l-45 45" stroke="#138a43" stroke-width="10" stroke-linecap="round"/>
+  <path d="M296 218l35 35M320 194l35 35" stroke="#0f6b35" stroke-width="14" stroke-linecap="round"/>
+  <path d="M100 160c30-28 52-28 82 0" fill="none" stroke="#138a43" stroke-width="12" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotoPart Hijau - Promo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar: menu utama website -->
+  <header class="navbar">
+    <a class="logo" href="index.html">MotoPart Hijau</a>
+
+    <nav class="nav-links" aria-label="Menu utama">
+      <a href="index.html">Beranda</a>
+      <a href="produk.html">Produk</a>
+      <a href="kategori.html">Kategori</a>
+      <a class="active" href="promo.html">Promo</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <form class="search-form" id="searchForm">
+      <input type="search" id="searchInput" placeholder="Cari sparepart motor..." aria-label="Cari produk">
+      <button type="submit">Cari</button>
+    </form>
+  </header>
+
+  <main>
+    <!-- Header halaman promo -->
+    <section class="page-header">
+      <p>Promo Toko</p>
+      <h1>Penawaran Hemat Bulan Ini</h1>
+      <span>Promo dapat berubah sesuai stok dan periode toko.</span>
+    </section>
+
+    <!-- Kartu promo: contoh promosi yang bisa dikembangkan -->
+    <section class="content-section">
+      <div class="promo-grid">
+        <article class="promo-card">
+          <img src="assets/product-vbelt.svg" alt="Ilustrasi paket V-Belt dan oli">
+          <p class="promo-tag">Paket Servis Matic</p>
+          <h2>V-Belt + Oli Mesin</h2>
+          <p>Lebih hemat untuk perawatan motor matic harian.</p>
+          <a href="produk.html?kategori=CVT">Lihat Paket</a>
+        </article>
+        <article class="promo-card">
+          <img src="assets/product-brake.svg" alt="Ilustrasi kampas rem">
+          <p class="promo-tag">Keamanan Berkendara</p>
+          <h2>Kampas Rem Pilihan</h2>
+          <p>Cek bagian rem sebelum perjalanan jauh agar motor tetap nyaman.</p>
+          <a href="produk.html?kategori=Rem">Lihat Produk</a>
+        </article>
+        <article class="promo-card">
+          <img src="assets/product-sparkplug.svg" alt="Ilustrasi busi motor">
+          <p class="promo-tag">Perawatan Mesin</p>
+          <h2>Busi + Filter Udara</h2>
+          <p>Jaga tarikan motor tetap ringan dengan perawatan rutin.</p>
+          <a href="produk.html?kategori=Mesin">Lihat Promo</a>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 MotoPart Hijau. Semua hak dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

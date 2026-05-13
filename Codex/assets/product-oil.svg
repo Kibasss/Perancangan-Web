@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-label="Oli mesin motor">
+  <rect width="420" height="260" fill="#eaf6ed"/>
+  <path d="M154 50h112l20 48v112H134V98z" fill="#ffffff" stroke="#0f6b35" stroke-width="14" stroke-linejoin="round"/>
+  <path d="M166 50V30h88v20" fill="none" stroke="#0f6b35" stroke-width="14" stroke-linecap="round"/>
+  <rect x="158" y="112" width="104" height="62" rx="10" fill="#cfe8d4"/>
+  <path d="M184 143h52" stroke="#138a43" stroke-width="12" stroke-linecap="round"/>
+  <path d="M318 113c20 24 30 42 30 58a31 31 0 0 1-62 0c0-16 11-34 32-58z" fill="#138a43"/>
+</svg>

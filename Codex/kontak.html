@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotoPart Hijau - Kontak</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar: menu yang sama di setiap halaman -->
+  <header class="navbar">
+    <a class="logo" href="index.html">MotoPart Hijau</a>
+
+    <nav class="nav-links" aria-label="Menu utama">
+      <a href="index.html">Beranda</a>
+      <a href="produk.html">Produk</a>
+      <a href="kategori.html">Kategori</a>
+      <a href="promo.html">Promo</a>
+      <a href="tentang.html">Tentang</a>
+      <a class="active" href="kontak.html">Kontak</a>
+    </nav>
+
+    <form class="search-form" id="searchForm">
+      <input type="search" id="searchInput" placeholder="Cari sparepart motor..." aria-label="Cari produk">
+      <button type="submit">Cari</button>
+    </form>
+  </header>
+
+  <main>
+    <!-- Header halaman kontak -->
+    <section class="page-header">
+      <p>Kontak</p>
+      <h1>Hubungi MotoPart Hijau</h1>
+      <span>Gunakan form contoh di bawah untuk latihan membuat halaman kontak.</span>
+    </section>
+
+    <!-- Form kontak sederhana -->
+    <section class="content-section two-column">
+      <form class="contact-form">
+        <label for="name">Nama</label>
+        <input type="text" id="name" placeholder="Masukkan nama Anda">
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Masukkan email Anda">
+
+        <label for="message">Pesan</label>
+        <textarea id="message" rows="5" placeholder="Tulis pesan Anda"></textarea>
+
+        <button type="submit">Kirim Pesan</button>
+      </form>
+
+      <div class="info-box">
+        <img class="info-image" src="assets/contact-service.svg" alt="Ilustrasi layanan pelanggan">
+        <h2>Informasi Toko</h2>
+        <p><strong>Alamat:</strong> Jl. Sparepart Motor No. 10</p>
+        <p><strong>Jam buka:</strong> Senin - Sabtu, 08.00 - 17.00</p>
+        <p><strong>WhatsApp:</strong> 0812-0000-0000</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 MotoPart Hijau. Semua hak dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-label="Roller matic">
+  <rect width="420" height="260" fill="#eaf6ed"/>
+  <circle cx="154" cy="130" r="64" fill="#ffffff" stroke="#0f6b35" stroke-width="16"/>
+  <circle cx="154" cy="130" r="24" fill="#138a43"/>
+  <circle cx="266" cy="130" r="64" fill="#ffffff" stroke="#0f6b35" stroke-width="16"/>
+  <circle cx="266" cy="130" r="24" fill="#138a43"/>
+  <path d="M154 66h112M154 194h112" stroke="#cfe8d4" stroke-width="18" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotoPart Hijau - Produk</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar: menu berpindah halaman -->
+  <header class="navbar">
+    <a class="logo" href="index.html">MotoPart Hijau</a>
+
+    <nav class="nav-links" aria-label="Menu utama">
+      <a href="index.html">Beranda</a>
+      <a class="active" href="produk.html">Produk</a>
+      <a href="kategori.html">Kategori</a>
+      <a href="promo.html">Promo</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <form class="search-form" id="searchForm">
+      <input type="search" id="searchInput" placeholder="Cari sparepart motor..." aria-label="Cari produk">
+      <button type="submit">Cari</button>
+    </form>
+  </header>
+
+  <main>
+    <!-- Header halaman: judul khusus halaman produk -->
+    <section class="page-header">
+      <p>Katalog Lengkap</p>
+      <h1>Daftar Produk Sparepart Motor</h1>
+      <span id="resultInfo">Semua produk tersedia.</span>
+    </section>
+
+    <!-- Katalog produk lengkap -->
+    <section class="content-section">
+      <div class="product-grid" id="productGrid">
+        <!-- Kartu produk dibuat otomatis dari JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2026 MotoPart Hijau. Semua hak dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

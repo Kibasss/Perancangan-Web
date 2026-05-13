@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MotoPart Hijau - Beranda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar: menu atas yang tetap terlihat saat halaman di-scroll -->
+  <header class="navbar">
+    <a class="logo" href="index.html">MotoPart Hijau</a>
+
+    <nav class="nav-links" aria-label="Menu utama">
+      <a class="active" href="index.html">Beranda</a>
+      <a href="produk.html">Produk</a>
+      <a href="kategori.html">Kategori</a>
+      <a href="promo.html">Promo</a>
+      <a href="tentang.html">Tentang</a>
+      <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <!-- Search bar: pengguna bisa mencari produk dari halaman mana saja -->
+    <form class="search-form" id="searchForm">
+      <input type="search" id="searchInput" placeholder="Cari sparepart motor..." aria-label="Cari produk">
+      <button type="submit">Cari</button>
+    </form>
+  </header>
+
+  <main>
+    <!-- Hero banner: area promo utama toko -->
+    <section class="hero">
+      <div class="hero-content">
+        <p class="hero-label">Sparepart Motor Terpercaya</p>
+        <h1>Sparepart motor pilihan untuk perawatan harian.</h1>
+        <p>Temukan komponen penting motor dengan katalog yang bersih, cepat dibaca, dan mudah dicari.</p>
+        <a href="produk.html" class="hero-button">Belanja Sekarang</a>
+      </div>
+
+      <!-- Gambar hero: visual utama agar beranda lebih hidup -->
+      <div class="hero-image">
+        <img src="assets/hero-sparepart.svg" alt="Ilustrasi sparepart motor">
+      </div>
+    </section>
+
+    <!-- Ringkasan kategori: pintasan ke halaman kategori -->
+    <section class="content-section">
+      <div class="section-heading">
+        <p>Kategori</p>
+        <h2>Kategori Sparepart</h2>
+      </div>
+
+      <div class="category-grid">
+        <a class="category-card" href="produk.html?kategori=CVT">
+          <img src="assets/category-cvt.svg" alt="Ilustrasi part CVT">
+          <h3>Part CVT</h3>
+          <p>V-Belt, roller, kampas ganda, dan rumah roller.</p>
+        </a>
+        <a class="category-card" href="produk.html?kategori=Rem">
+          <img src="assets/category-brake.svg" alt="Ilustrasi sistem rem">
+          <h3>Sistem Rem</h3>
+          <p>Kampas rem, minyak rem, dan perlengkapan pengereman.</p>
+        </a>
+        <a class="category-card" href="produk.html?kategori=Mesin">
+          <img src="assets/category-engine.svg" alt="Ilustrasi mesin motor">
+          <h3>Mesin</h3>
+          <p>Oli, busi, filter udara, dan perawatan mesin.</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Produk pilihan: hanya beberapa produk unggulan di beranda -->
+    <section class="content-section">
+      <div class="section-heading">
+        <p>Produk Pilihan</p>
+        <h2>Paling Banyak Dicari</h2>
+      </div>
+
+      <div class="product-grid" id="featuredGrid">
+        <!-- Kartu produk dibuat otomatis dari JavaScript -->
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer: informasi singkat bagian bawah website -->
+  <footer class="footer">
+    <p>&copy; 2026 MotoPart Hijau. Semua hak dilindungi.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

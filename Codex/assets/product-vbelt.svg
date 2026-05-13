@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 260" role="img" aria-label="V-Belt motor">
+  <rect width="420" height="260" fill="#eaf6ed"/>
+  <ellipse cx="210" cy="130" rx="136" ry="72" fill="none" stroke="#0f6b35" stroke-width="34"/>
+  <ellipse cx="210" cy="130" rx="92" ry="42" fill="none" stroke="#ffffff" stroke-width="18"/>
+  <path d="M120 76l180 108" stroke="#138a43" stroke-width="12" stroke-linecap="round"/>
+  <path d="M300 76L120 184" stroke="#138a43" stroke-width="12" stroke-linecap="round"/>
+</svg>
